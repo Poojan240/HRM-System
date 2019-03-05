@@ -8,7 +8,7 @@
       <param-name>contextConfigLocation</param-name>
       <param-value>
 				/WEB-INF/spring/webcontext/DispatcherServlet-context.xml
-		<!-- 		/WEB-INF/spring/webcontext/security-context.xml   -->
+			<!--  	/WEB-INF/spring/webcontext/security-context.xml -->
 				
 			</param-value>
     </init-param>
@@ -21,22 +21,24 @@
  
    
   	<!-- ServletContext parameter - Scope is this [root] application -->
+  	
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>
 		/WEB-INF/spring/webcontext/applicationContext.xml
-	<!--  	/WEB-INF/spring/webcontext/security-context.xml -->
+	<!--  	/WEB-INF/spring/webcontext/security-context.xml  -->
  		</param-value>
-	</context-param>
-	
+	</context-param>         
+
 	<!-- The security-context is loaded into the root WebApplicationContext
 	     as it is NOT Spring MVC specific [DispatcherServlet] -->
+	      	
 	<listener>
 		<listener-class>
 			org.springframework.web.context.ContextLoaderListener 
 		</listener-class>
-	</listener>
-	
+	</listener>    
+
 	<!-- springSecurityFilterChain == an internal infrastructure bean 
 				created based on namespace enabling of security
 				<http auto-config='true'> -->

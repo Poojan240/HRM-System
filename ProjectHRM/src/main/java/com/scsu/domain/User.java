@@ -14,11 +14,6 @@ import org.hibernate.annotations.CascadeType;
 
 
 
-/**
- * 
- * @author NiDiNA
- *
- */
 @Entity
 public class User{
 

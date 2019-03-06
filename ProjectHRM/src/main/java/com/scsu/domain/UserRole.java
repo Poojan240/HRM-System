@@ -8,11 +8,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 
-/**
- * 
- * @author NiDiNA
- *
- */
 @Entity
 public class UserRole{
 	/**

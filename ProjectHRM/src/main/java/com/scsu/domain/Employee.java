@@ -15,10 +15,7 @@ import javax.validation.constraints.*;
 import org.hibernate.validator.constraints.*;
 import org.springframework.format.annotation.DateTimeFormat;
 
-/**
- * @author Nabin
- *
- */
+
 @Entity(name="employee")
 public class Employee implements Serializable {
 	/**

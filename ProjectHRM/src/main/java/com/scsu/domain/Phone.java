@@ -12,10 +12,6 @@ import javax.persistence.Id;
 
 import org.hibernate.validator.constraints.Range;
 
-/**
- * @author ashok
- *
- */
 @Entity
 public class Phone implements Serializable{
 	/**

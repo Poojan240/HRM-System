@@ -12,10 +12,7 @@ import javax.persistence.Id;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
-/**
- * @author Nabin
- *
- */
+
 @Entity(name="department")
 public class Department implements Serializable{
 	/**

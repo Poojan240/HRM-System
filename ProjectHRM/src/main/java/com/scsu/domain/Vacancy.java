@@ -13,11 +13,7 @@ import javax.persistence.OneToOne;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
-/**
- * 
- * @author NiDiNA
- *
- */
+
 @Entity
 public class Vacancy {
 	@Id
